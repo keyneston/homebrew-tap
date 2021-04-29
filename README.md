@@ -2,6 +2,6 @@
 A collection of custom tools and software
 
 ```
-brew tap github.com/keyneston/homebrew-tap
+brew tap keyneston/tap
 brew install mktable
 ```
