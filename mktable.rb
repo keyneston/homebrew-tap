@@ -5,25 +5,25 @@
 class Mktable < Formula
   desc "Make markdown tables from the command line"
   homepage "https://github.com/keyneston/mktable"
-  version "0.0.4"
+  version "0.0.5"
   license "BSD-3-Clause"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/keyneston/mktable/releases/download/v0.0.4/mktable_0.0.4_darwin_amd64.tar.gz"
-    sha256 "556dd4780991e8b62f18fbc6f1bcd3844bf53c579f0f2da3bd074226c8b2353d"
+    url "https://github.com/keyneston/mktable/releases/download/v0.0.5/mktable_0.0.5_darwin_amd64.tar.gz"
+    sha256 "1278a9fa3479d2a390bea1480add068de3906a30806a366d62d95f7ecb414e2f"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/keyneston/mktable/releases/download/v0.0.4/mktable_0.0.4_darwin_arm64.tar.gz"
-    sha256 "7a82e0e2d7437fcf4136c55867ac2fa7d1fb21dbd2515c39b815bdf208825594"
+    url "https://github.com/keyneston/mktable/releases/download/v0.0.5/mktable_0.0.5_darwin_arm64.tar.gz"
+    sha256 "cae026b781c1e04663a81368cab3266f38b1954ad3bca32b58846081b7d09c01"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/keyneston/mktable/releases/download/v0.0.4/mktable_0.0.4_linux_amd64.tar.gz"
-    sha256 "2fbeafbccbe96aeca1b41888d8e57959058bab9df68f3a53a444c1ca124e64c1"
+    url "https://github.com/keyneston/mktable/releases/download/v0.0.5/mktable_0.0.5_linux_amd64.tar.gz"
+    sha256 "c1b6f7f505c1b5ba701b3ed8301033861a2ac5c75159e2d132fb1f2670cd554c"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/keyneston/mktable/releases/download/v0.0.4/mktable_0.0.4_linux_arm64.tar.gz"
-    sha256 "1aa3a14d1028011c0649e36969f00bc107c406678a609f10acb7af6a965650d3"
+    url "https://github.com/keyneston/mktable/releases/download/v0.0.5/mktable_0.0.5_linux_arm64.tar.gz"
+    sha256 "4e519f2582de2b8f3c50d56895658f58cb06e3e8d8824b3d121f641fc7a30874"
   end
 
   def install
